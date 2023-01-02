@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: green;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+main {
+    background: floralwhite;
+    text-align: left;
+}
+
+main img {
+    max-width: 576px;
+}
+
+main h1 {
+    font-size: 1.2em;
+}
+
+main li {
+    list-style-type: none;
+}
+
+main a {
+    text-decoration: none;
+    list-style-type: none;
+}
