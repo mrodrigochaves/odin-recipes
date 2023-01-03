@@ -20,10 +20,14 @@ body {
 main {
     background: floralwhite;
     text-align: left;
+    margin-top: auto;
+    
 }
 
 main img {
     max-width: 576px;
+    margin: 20px auto;
+    display: block;
 }
 
 main h1 {
@@ -37,4 +41,16 @@ main li {
 main a {
     text-decoration: none;
     list-style-type: none;
+}
+
+main p,
+ div {
+    max-width: 450px;
+    text-align: left;
+    text-justify: auto;
+    margin: 20px auto;
+}
+
+.button{
+    background: black;
 }
