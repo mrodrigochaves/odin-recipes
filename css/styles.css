@@ -21,17 +21,17 @@ main {
     background: floralwhite;
     text-align: left;
     margin-top: auto;
-    
 }
 
 main img {
-    max-width: 576px;
+    max-width: 476px;
     margin: 20px auto;
     display: block;
 }
 
 main h1 {
     font-size: 1.2em;
+    text-align: center;
 }
 
 main li {
@@ -39,18 +39,35 @@ main li {
 }
 
 main a {
-    text-decoration: none;
+    background: blue;
     list-style-type: none;
+    text-decoration: none;
+}
+
+main a:hover {
+    background: greenyellow;
 }
 
 main p,
- div {
+div {
     max-width: 450px;
     text-align: left;
     text-justify: auto;
     margin: 20px auto;
 }
 
-.button{
+.retorno {
     background: black;
+}
+
+.retorno:hover {
+    background: red;
+}
+
+.principal {
+    background: black;
+}
+
+.principal:hover {
+    background: red;
 }
