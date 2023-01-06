@@ -6,7 +6,7 @@
 }
 
 body {
-    background: green;
+    background: whitesmoke;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -21,6 +21,7 @@ main {
     background: floralwhite;
     text-align: left;
     margin-top: auto;
+    border-radius: 1rem;
 }
 
 main img {
@@ -39,9 +40,9 @@ main li {
 }
 
 main a {
-    background: blue;
     list-style-type: none;
     text-decoration: none;
+    color: black;
 }
 
 main a:hover {
@@ -58,6 +59,7 @@ div {
 
 .retorno {
     background: black;
+    color: azure;
 }
 
 .retorno:hover {
@@ -65,9 +67,10 @@ div {
 }
 
 .principal {
-    background: black;
+    background: red;
 }
 
 .principal:hover {
-    background: red;
+    background: black;
+    color: azure;
 }
